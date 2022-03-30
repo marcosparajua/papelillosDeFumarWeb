@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: url("" );
+  background-color: darkgrey;
+  
+}
+
+
+
+.scene,
+canvas {
+  position: absolute;
+  width: 50%;
+  height: 180%;
+  overflow: hidden;
+  bottom: 40px;
+  right: 200px;
+  
+}
+.center {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 150%;
+}
+
+.cd:hover{
+  animation: agrandar 6s infinite alternate ;
+
+}
+@keyframes agrandar{
+  from{width: 100px;} to {width: 1000px;}
+}
+
+
